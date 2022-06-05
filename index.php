@@ -136,25 +136,25 @@
           <div class="overflow-hidden firstSection d-flex align-items-center">
             <div class="container mt-n-5">
                 <div class="row">
-                    <div class="col-md-5 col-12 order-md-0 order-1 text-center text-md-start">
+                    <div class="col-md-5 col-12 order-md-0 order-1 text-center text-md-start mt-md-0 mt-5 pt-md-0 pt-5">
                         <h1 class="mt-4">Grow your business by advertising in Advva Deal Mobile APP.</h1>
-                        <p class="my-4 px-4 px-md-0 pe-md-5 pe-0">While paper discounts mostly end up in the garbage can, digital coupons are a successful means of growing social media.</p>
+                        <p class="my-4 px-4 px-md-0 pe-md-5">While paper discounts mostly end up in the garbage can, digital coupons are a successful means of growing social media.</p>
                     </div>
                     <div class="col-md-7 col-12 order-md-1 order-0 d-flex align-items-center justify-content-center">
-                        <img class="image3 position-absolute" src="/img/firstSection.png" alt="Advva Business Deals" width="700px">
+                        <img class="image3 mt-n-2 position-absolute" src="/img/firstSection.png" alt="Advva Business Deals" width="700px">
                     </div>
                 </div>
             </div>
           </div>
           <!-- Form Section -->
-            <div class="section container">
+            <div class="section container pb-5 pb-md-0">
                 <div class="row justify-content-center justify-content-md-between">
-                    <div class="col-md-5 col-12 form-margin">
+                    <div class="col-md-5 col-12 form-margin order-md-0 order-1 px-4 px-md-0">
                         <img class="image1" src="/img/FormSectionImg.png" alt="Form Section Image" width="448px">
-                        <h4 class="mt-3 mb-4">Physical coupons are much more expensive to incorporate into your marketing strategy.</h4>
-                        <h5>Physical coupons incur printing, insertion, and distribution costs, whilst digital coupons can be sent by text, email, and automatically generated communications.</h5>
+                        <h4 class="mt-3 mb-4 text-center text-md-start">Physical coupons are much more expensive to incorporate into your marketing strategy.</h4>
+                        <h5 class="text-center text-md-start">Physical coupons incur printing, insertion, and distribution costs, whilst digital coupons can be sent by text, email, and automatically generated communications.</h5>
                     </div>
-                    <div class="col-md-5 col-11 form-margin bg-light form-shadow p-4 p-md-5">
+                    <div class="col-md-5 col-11 form-margin form-margin-mb bg-light form-shadow p-4 p-md-5 order-md-1 order-0">
                         <p class="fw-bold mb-4 pb-2">Reach New Customers. Build Loyalty. Become a True Destination. With $0 Upfront Costs! Get Started Today.</p>
                         <form id="formtwo" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
                         <?php if (! empty($formErrors)) { ?>
@@ -172,14 +172,14 @@
                         <?php if (isset($success)) { echo $success; } ?>
                         <div>
                             <div>
-                                <input id="BusinessName" name="BusinessName" type="text" class="form-control my-3 p-3" placeholder="Business Name" value="<?php if (isset($BusinessName)) { echo $BusinessName; } ?>">
+                                <input id="BusinessName" name="BusinessName" type="name" class="form-control my-3 p-3" placeholder="Business Name" value="<?php if (isset($BusinessName)) { echo $BusinessName; } ?>">
                                 <input id="BusinessAddress" name="BusinessAddress" type="address" class="form-control my-3 p-3" placeholder="Business Address" value="<?php if (isset($BusinessAddress)) { echo $BusinessAddress; } ?>">
                                 <input id="BusinessCategory" name="BusinessCategory" type="text" class="form-control my-3 p-3" placeholder="Business Category" value="<?php if (isset($BusinessCategory)) { echo $BusinessCategory; } ?>">
                                 <input id="FirstandLastName" name="FirstandLastName" type="text" class="form-control my-3 p-3" placeholder="First and Last Name" value="<?php if (isset($FirstandLastName)) { echo $FirstandLastName; } ?>">
                                 <input id="email" name="email" type="email" class="form-control my-3 p-3" placeholder="Email Address" value="<?php if (isset($email)) { echo $email; } ?>">
                                 <input id="tel" name="tel" type="tel" class="form-control my-3 p-3" placeholder="Phone Number" value="<?php if (isset($tel)) { echo $tel; } ?>">
                                 <p class="fs2 my-4">By clicking 'Sign up', I confirm that I agree to the Groupon Merchant Terms of Use , and have read the Privacy Statement .</p>
-                                <button type="button" class="signupButton mw-100 w-100 p-3 fw-bold">Sign Up</button>
+                                <button type="submit" class="signupButton mw-100 w-100 p-3 fw-bold">Sign Up</button>
                             </div>
                         </div>
                         </form>
@@ -187,7 +187,7 @@
                 </div>
             </div>
           <!-- Our Clients Section -->
-          <div class="section fourthSection">
+          <div class="section fourthSection mt-5 mt-md-0">
             <div class="container">
               <div class="row">
                 <div class="col pb-5 mt-n-1">

@@ -85,11 +85,20 @@ button{
 }
 
 @media (max-width:768px) {
+	.image1 {
+		width: -webkit-fill-available;
+	}
 	.image2 {
+		width: -webkit-fill-available;
+	}
+	.image3 {
 		width: -webkit-fill-available;
 	}
 	.mt-n-1 {
 		margin-top: -4%;
+	}
+	.mt-n-2 {
+		margin-top: -25%;
 	}
 	.imgBox2 {
 		transform: rotate(90deg);
@@ -108,10 +117,14 @@ button{
 	.fs3 {
 		font-size: 22px;
 	}
-	.form-margin {
-		margin-bottom: -22%;
-		margin-top: 22%;
+	.form-margin-mb {
+		margin-bottom: +5%;
+		margin-top: -70%;
 	  }
+	.fourthSection {
+		background: rgba(254, 240, 158, 0.4);
+		max-height: 371px;
+	}
 }
 @media (min-width: 769px) {
   h1{
@@ -154,6 +167,10 @@ button{
 		margin-top: -22%;
 		margin-bottom: 15%;
 	  }
+	.fourthSection {
+		background: rgba(254, 240, 158, 0.4);
+		min-height: 242px;
+	}
 	
 }
 
@@ -311,10 +328,7 @@ body.light .progress-wrap svg.progress-circle path {
 .secondSection {
 	background: linear-gradient(180deg, rgba(1, 180, 187, 0.15) 0%, rgba(1, 180, 187, 0.15) 100%);
   }
-.fourthSection {
-	background: rgba(254, 240, 158, 0.4);
-	min-height: 242px;
-}
+
 .sixthSection {
 	background: linear-gradient(180deg, #FA8825 0%, #FA8825 100%);
 }
