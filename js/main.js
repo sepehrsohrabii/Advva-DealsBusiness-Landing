@@ -148,13 +148,15 @@ gsap.from(".image3", {
   scrollTrigger: {
     trigger: ".image3",
     start: "top bottom",
-    end: "bottom 0%",
-    toggleActions: "play reset play reset"
+    end: "bottom 30%",
+    toggleActions: "play reset play reset",
+    scrub: 1
   },
   rotation:45,
   scale: 0.2,
   duration: 1
 });
+
 gsap.from(".image2", {
   scrollTrigger: {
     trigger: ".image2",
@@ -202,7 +204,46 @@ gsap.from(".image6", {
   scale: 0.2,
   duration: 1
 });
-
+gsap.from(".image7", {
+  scrollTrigger: {
+    trigger: ".image7",
+    start: "top bottom",
+    end: "bottom 0%",
+    toggleActions: "play reset play reset"
+  },
+  scale: 0.2,
+  duration: 1
+});
+gsap.from(".image8", {
+  scrollTrigger: {
+    trigger: ".image8",
+    start: "top bottom",
+    end: "bottom 0%",
+    toggleActions: "play reset play reset"
+  },
+  x: +5000,
+  duration: 0.8
+});
+gsap.from(".image9", {
+  scrollTrigger: {
+    trigger: ".image9",
+    start: "top bottom",
+    end: "bottom 0%",
+    toggleActions: "play reset play reset"
+  },
+  x: +4000,
+  duration: 1
+});
+gsap.from(".image10", {
+  scrollTrigger: {
+    trigger: ".image10",
+    start: "top bottom",
+    end: "bottom 0%",
+    toggleActions: "play reset play reset"
+  },
+  x: +3000,
+  duration: 1.2
+});
 
 gsap.from(".gsap3", {
   scrollTrigger: {

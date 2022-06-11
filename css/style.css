@@ -125,6 +125,36 @@ button{
 		background: rgba(254, 240, 158, 0.4);
 		max-height: 371px;
 	}
+	.image3 {
+		margin-top: -22%;
+		margin-left: -25%;
+		z-index: 10;
+		max-width: 62%;
+	}
+	.image7 {
+		margin-top: -22%;
+		margin-left: +42%;
+		z-index: 1;
+		max-width: 31%;
+	}
+	.image8 {
+		margin-top: -58.5%;
+		margin-left: +64%;
+		z-index: 2;
+		max-width: 26%;
+	}
+	.image9 {
+		margin-top: -15%;
+		margin-left: +53%;
+		z-index: 3;
+		max-width: 25%;
+	}
+	.image10 {
+		margin-top: +22.8%;
+		margin-left: +65%;
+		z-index: 4;
+		max-width: 19%;
+	}
 }
 @media (min-width: 769px) {
   h1{
@@ -170,6 +200,31 @@ button{
 	.fourthSection {
 		background: rgba(254, 240, 158, 0.4);
 		min-height: 242px;
+	}
+	.image3 {
+		margin-top: 0;
+		margin-left: -9%;
+		z-index: 10;
+	}
+	.image7 {
+		margin-top: 0;
+		margin-left: +12%;
+		z-index: 1;
+	}
+	.image8 {
+		margin-top: -11.5%;
+		margin-left: +20%;
+		z-index: 2;
+	}
+	.image9 {
+		margin-top: +1.8%;
+		margin-left: +15%;
+		z-index: 3;
+	}
+	.image10 {
+		margin-top: +13.8%;
+		margin-left: +20%;
+		z-index: 4;
 	}
 	
 }
