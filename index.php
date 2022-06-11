@@ -89,16 +89,16 @@
               <div class="col text-end d-none d-md-inline">
                 <ul class="nav justify-content-end align-items-center">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#"><h6>About Us</h6></a>
+                      <a class="nav-link" aria-current="page" href="#footer"><h6>About Us</h6></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><h6>How It Works</h6></a>
+                      <a class="nav-link" href="#howitworks"><h6>How It Works</h6></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><h6>FAQ</h6></a>
+                      <a class="nav-link" href="#FAQ"><h6>FAQ</h6></a>
                     </li>
                     <li class="nav-item ms-5">
-                        <button>Get App</button>
+                      <a href="https://deals.advva.com/"><button>Get App</button></a>
                     </li>
                 </ul>
               </div>
@@ -112,10 +112,10 @@
                 </button>
                 <div class="navbar-new" id="toggle-nav">
                   <ul id="navlinks">
-                    <li><a data-text="1" href="#">About Us</a></li>
-                    <li><a data-text="2" href="#">How It Works</a></li>
-                    <li><a data-text="3" href="#">FAQ</a></li>
-                    <li class="text-start mt-4"><button data-text="4">Get App</button></li>
+                    <li><a data-text="1" href="#footer">About Us</a></li>
+                    <li><a data-text="2" href="#howitworks">How It Works</a></li>
+                    <li><a data-text="3" href="#FAQ">FAQ</a></li>
+                    <li class="text-start mt-4"><a href="https://deals.advva.com/"><button data-text="4">Get App</button></li></a>
                   </ul>
                 </div>
                 <div id="bg-circle"></div>
@@ -141,7 +141,11 @@
                         <p class="my-4 px-4 px-md-0 pe-md-5">While paper discounts mostly end up in the garbage can, digital coupons are a successful means of growing social media.</p>
                     </div>
                     <div class="col-md-7 col-12 order-md-1 order-0 d-flex align-items-center justify-content-center">
-                        <img class="image3 mt-n-2 position-absolute" src="/img/firstSection.png" alt="Advva Business Deals" width="700px">
+                        <img class="image3 mt-n-2 position-absolute" src="/img/slider1.png" alt="Advva Business Deals">
+                        <img class="image7 mt-n-2 position-absolute" src="/img/slider2.png" alt="Advva Business Deals">
+                        <img class="image8 mt-n-2 position-absolute" src="/img/slider3.png" alt="Advva Business Deals">
+                        <img class="image9 mt-n-2 position-absolute" src="/img/slider4.png" alt="Advva Business Deals">
+                        <img class="image10 mt-n-2 position-absolute" src="/img/slider5.png" alt="Advva Business Deals">
                     </div>
                 </div>
             </div>
@@ -211,7 +215,7 @@
             </div>
           </div>
           <!-- services Section -->
-          <div class="section secondSection pt-5">
+          <div class="section secondSection pt-5" id="howitworks">
             <div class="container">
                 <div class="row pb-5">
                     <div class="col-md-4 col-12 text-center px-5 mt-5">
@@ -233,7 +237,7 @@
             </div>
           </div>
           <!-- FAQ Section -->
-          <div class="section container mb-5 mt-4 py-5 overflow-hidden">
+          <div class="section container mb-5 mt-4 py-5 overflow-hidden" id="FAQ">
             <div class="row my-md-5 mb-5">
               <div class="col-12 col-md-12 align-self-center text-center">
                 <h1 class="text-black">FAQs</h1>
@@ -334,7 +338,7 @@
           </div>
         </main>
         
-        <footer class="section d-flex align-items-center text-md-start text-center">
+        <footer class="section d-flex align-items-center text-md-start text-center" id="footer">
           <div class="container">
             <div class="row mt-5 pt-md-5 justify-content-between">
               <div class="col-md-2">
